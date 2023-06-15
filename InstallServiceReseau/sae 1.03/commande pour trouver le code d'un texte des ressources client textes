@@ -1,0 +1,2 @@
+egrep -i code=fr-[a-z]{3} < Bretagne.txt | cut -d'=' -f2 | colrm 7
+
